@@ -3,9 +3,9 @@ Anonymous code release for PRICAI 2022 paper submission, named "DDMA: Discrepanc
 ## Environments
 Here we provide the detailed descriptions of all environments in our experiments.
 ### Collision Corridor
-<div align=center>
+<!-- <div align=center>
 <img src="env_pics/scenario1.png" width="800">
-</div>
+</div> -->
 In this task, there are two autonomous cars that are initialized in the upper left and the upper right corner respectively. The goal for each car is to arrive at the diagonal corner to collect some items, such as batteries or passengers. At the same time, they should learn to find the corridor hidden in the obstacles, or they will fail to reach the goal locations. Each car can select one of the five available actions {stop, up, down, left, right} and can observe the positions of another one. A dangerous collision will occur when both cars try to pass through the corridor, and both cars will receive -10 reward. If one car arrives at its own target corner, it will stay still and wait for the other car. In such situation where one car has achieved its own goal, both cars will receive +30 reward if the other one also arrives at the target corner. In the other situations, both cars can’t acquire any rewards. The episode limit in this task is set to 50.
 ### MPE Scenarios
 <!-- <div align=center>
