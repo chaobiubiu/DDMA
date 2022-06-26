@@ -3,8 +3,10 @@ Anonymous code release for PRICAI 2022 paper submission, named "DDMA: Discrepanc
 ## Environments
 Here we provide the detailed descriptions of all environments in our experiments.
 ### Collision Corridor
+<img src="env_pics/scenario1.png" width="800">
 In this task, there are two autonomous cars that are initialized in the upper left and the upper right corner respectively. The goal for each car is to arrive at the diagonal corner to collect some items, such as batteries or passengers. At the same time, they should learn to find the corridor hidden in the obstacles, or they will fail to reach the goal locations. Each car can select one of the five available actions {stop, up, down, left, right} and can observe the positions of another one. A dangerous collision will occur when both cars try to pass through the corridor, and both cars will receive -10 reward. If one car arrives at its own target corner, it will stay still and wait for the other car. In such situation where one car has achieved its own goal, both cars will receive +30 reward if the other one also arrives at the target corner. In the other situations, both cars can’t acquire any rewards. The episode limit in this task is set to 50.
 ### Cooperative Navigation
+<img src="env_pics/scenario1.png" width="800">
 In this situation, three agents should occupy as many landmarks as possible and avoid collisions with each other. All agents are globally rewarded based on how far the closest agent is to each landmark (sum of the minimum distances) and the number of total collisions (-1 for each collision). This setting requires agents to coordinate with each other about the assignment of target landmarks and avoid the collisions to maximize the total reward.
 ### Predator and Prey
 In Predator and Prey, there is one prey and three
