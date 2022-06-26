@@ -16,6 +16,7 @@ landmarks, other predators and the prey, also the prey’s velocity.
 ### Individual Defense
 In Individual Defense, two good agents are assigned to defend specified landmarks respectively from the approach of other two bad agents. Interestingly, one good agent and one bad agent will be equipped with the same target landmark randomly in each initialization. We only control these two good agents and similarly equip the other two bad agents with pre-defined rules (i.e., the random policy). Each good agent aims to keep the bad agent that processes the same goal away from the target landmark and tries to approach this target landmark itself. At each time step, each good agent will receive rewards based on these two distances. In addition, these two good agents also need to avoid collisions with each other. Here the good agent can observe its own velocity and position, the relative positions towards these two landmarks and all other agents.
 ### Visualization
-<!-- <div align=center>
+<div align=center>
 <img src="env_pics/scenario1.png" width="800">
-</div> -->
+<img src="env_pics/mpe_scenarios.png" width="800">
+</div>
