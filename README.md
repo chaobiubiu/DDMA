@@ -18,5 +18,4 @@ In Individual Defense, two good agents are assigned to defend specified landmark
 ### Visualization
 <!-- <div align=center>
 <img src="env_pics/scenario1.png" width="800">
-<img src="env_pics/mpe_scenarios.png" width="800">
 </div> -->
