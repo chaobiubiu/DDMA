@@ -1,1 +1,1 @@
-# DDMA-Discrepancy-Driven-Multi-Agent-reinforcement-learning
+# DDMA: Discrepancy-Driven-Multi-Agent reinforcement learning
