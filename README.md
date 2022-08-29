@@ -1,5 +1,5 @@
-# DDMA: Discrepancy-Driven Multi-Agent reinforcement learning
-Anonymous code releases for PRICAI 2022 paper submission, named "DDMA: Discrepancy-Driven Multi-Agent Reinforcement Learning". This repository develops DDMA algorithm on the benchmarks of Collision Corridor and several MPE scenarios: Cooperative Navigation, Predator and Prey and Individual Defense. We compare DDMA with VDN, QMIX and MAPG in Collision Corridor. And we choose MADDPG, MAAC, G2ANet and noisy-MADDPG as the baselines in these MPE scenarios. Here we provide the detailed descriptions of these environments and all algorithms in the experiments.
+# PRICAI2022-DDMA
+Code for the paper "DDMA: Discrepancy-Driven Multi-Agent Reinforcement Learning" presented at PRICAI. This repository develops DDMA algorithm on the benchmarks of Collision Corridor and several MPE scenarios: Cooperative Navigation, Predator and Prey and Individual Defense. We compare DDMA with VDN, QMIX and MAPG in Collision Corridor. And we choose MADDPG, MAAC, G2ANet and noisy-MADDPG as the baselines in these MPE scenarios. Here we provide the detailed descriptions of these environments and all algorithms in the experiments.
 ## Algorithms
 Please refer to the **pricai_appendix.pdf** file for more details (i.e. architectures, hyperparameters) of DDMA and other algorithms. It's recommended to download this file instead of reading online to avoid the formatting error.
 ## Environments
